@@ -96,7 +96,7 @@ src: url("../font/FetishRegular.ttf");
 }
 
 .aboutImage {
-	width: 100%
+	max-width: 100%
 }
 
 .skillsSection,
