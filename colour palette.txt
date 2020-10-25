@@ -1,0 +1,8 @@
+orange : 245 123 34 : #f57b2d
+yellow : 245 222 49 : #f5de31
+magenta : 230 50 134 : #e63286
+black : 0 0 0 : #000000
+white : 255 255 255 : #ffffff
+
+#22beba cyan
+#ea539b MAGENTA
