@@ -8,16 +8,16 @@ $(window).on("load",function(){
 
 $(document).ready(function(){
    
-    $("#navigation .scrollable").click(function(e) {
-		e.preventDefault();
+    $(".contact a").click(function(e) {
+        e.preventDefault();
 
-		var targetElement = $(this).attr("href");
-		var targetPosition = $(targetElement).offset().top;
-		$("html, body").animate({ scrollTop: targetPosition - 50 }, "slow");
+        var targetElement = $(this).attr("href");
+        var targetPosition = $(targetElement).offset().top;
+        $("html, body").animate({ scrollTop: targetPosition - 50 }, "slow");
 
-	});
+    });
 
-    const nav = $("#navigation");
+    const nav = $("#navigation1");
     const navTop = nav.offset().top;
 
     $(window).on("scroll", stickyNavigation);

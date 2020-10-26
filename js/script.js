@@ -1,6 +1,12 @@
+
+
+
 $(window).on("load",function(){
 	$(".loader .inner").fadeOut(500, function(){
 		$(".loader").fadeOut(750);
+		var rellax = new Rellax('.rellax');
+		rellax.destroy();
+		rellax.refresh();
 	});
 
 })
@@ -13,7 +19,7 @@ $(document).ready(function(){
 	});
 
 	var typed = new Typed(".typed",{
-		strings: ["VFX Artist.", "Animator.", "Motion Graphics Artist.", "Student."],
+		strings: ["VFX Artist","3D Artist", "Animator", "Motion Graphics Artist"],
 		typeSpeed: 70,
 		loop: true,
 		startDelay: 1000,

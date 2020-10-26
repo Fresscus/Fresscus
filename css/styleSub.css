@@ -1,0 +1,379 @@
+/*MAIN----------------------------------------------------------------------------------------------------------------------*/
+	@font-face{
+   	font-family:Raleway; 
+   	src: url(../font/Raleway.ttf)
+	}
+
+	@font-face{
+   	font-family:Roboto; 
+   	src: url(../font/Roboto.ttf)
+	}
+
+
+	body{
+		font-family: 'Raleway', sans-serif;
+		color: #000000;
+		font-size: 20px;
+		background-color: #ffffff;
+		letter-spacing: 1px;
+	}
+
+	.section {
+		padding: 3vh 0 5vh 0;
+	}
+
+/*titleBar----------------------------------------------------------------------------------------------------------------------*/
+
+	.barSection{
+		background-color: #000000;
+		color: #000000;
+	}
+
+	.bar{
+		width:100%;
+		background-color: #000000;
+		padding:6px 10px 2px 5px;
+		z-index:100;
+		border-bottom: 3px solid #000000;
+	}
+
+	#navigation1 li{
+		padding:0 10px;
+	}
+
+	#navigation1 li a{
+		color: #ffffff;
+		font-size: 16px;
+		font-family: 'Raleway', sans-serif;
+		transition: color 0.4s;
+	}
+
+	#navigation1 .subPort{
+			color: #fff;
+		}
+
+	#navigation1 li a:hover{
+		text-decoration:none;
+		color: #22beba;
+	}
+
+	.navbar-toggler-icon{
+		background: url(../img/icons/menu.png);
+		background-size: 100%;
+	}
+
+	.fixedNav #navigation1{
+		position:fixed;
+		top:0;
+	}
+
+	.loader{
+		width: 100%;
+		height: 100%;
+		background-color: #fff;
+		position:fixed;
+		top:0px;
+		left:0px;
+		z-index:1000;
+	}
+
+	.loader .inner{
+		width: 100%;
+		height: 100%;
+		background: url(../img/loader.gif) center center no-repeat;
+	}
+
+	.fa{
+	font-size: 35px;
+	color:#000000;
+	margin-top: 10px;
+	text-align: right;
+	}
+
+	.portfolio{
+		color: #ffffff;
+		font-size: 16px;
+		font-family: 'Raleway', sans-serif;
+	}
+	ul {
+		padding: 0px 0px;
+	}
+
+	nav ul li{
+		position: relative;
+		list-style: none;
+		float: left;
+	}
+
+	nav ul li a{
+		text-decoration: none;
+	}
+
+	nav ul li ul{
+		display: none;
+		position: absolute;
+		background-color: #000;
+		z-index: 101;
+		border-radius: 0px 0px 0px 4px;
+	}
+
+	nav ul li:hover ul{
+		display: block;
+	}
+
+	nav ul li ul li a{
+		width: 180px;
+		border-radius: 0px 0px 0px 4px;
+	}
+/*----------------------------------------------------------------------------------------------------------------------*/
+
+	.titleHeadingCyan{
+		padding: 50px 0px;
+		color:	#22beba;
+	}
+
+	.titleHeadingMagenta{
+		padding: 50px 0px;
+		color:	#ea539b;
+	}
+
+	.subHeading{
+		padding: 30px 0px;
+		color:	#ea539b;
+	}
+
+	.imageWide{
+		width: 100%;
+		padding: 0px 0px 20px 0px;
+	}
+
+	.imageWideTop{
+		width: 100%;
+		padding: 20px 0px 20px 0px;
+	}
+
+	.imageSquareTop{
+		width: 100%;
+		padding:20px 0px 20px 0px;
+	}
+
+	.imageSquare{
+		padding:0px 0px 20px 0px;
+	}
+
+	.imageSquareBottom{
+		width: 100%;
+		padding:0px 0px 20px 0px;
+	}
+
+	.parMain{
+		font-size: 18px;
+		color:#000000;
+		padding: 0px 0px 20px 0px;
+	}
+
+	.parMain1{
+		font-size: 18px;
+		color:#000000;
+		padding: 0px 0px 0px 0px;
+	}
+
+	.parSub{
+		font-style: italic; 
+		font-size: 16px;
+		color:#ea539b;
+		padding: 0px 0px 20px 0px;
+	}
+
+	.par{
+		font-style: italic; 
+		font-size: 16px;
+		color:#ffffff;
+	}
+
+	.blackContainer{
+		background-color: #000000;
+		color:#ffffff;
+		font-size: 16px;
+	}
+
+	.magentaContainer{
+		background-color: #ea539b;
+	}
+
+	.cyanContainer{
+		background-color: #22beba;
+	}
+
+	.HyperLink{
+		color: #22beba ;
+		transition: color 0.4s;
+	}
+
+	.HyperLink:hover{
+		text-decoration:none;
+		color:#ea539b ;
+	}
+
+
+/*CONTACT----------------------------------------------------------------------------------------------------------------------*/
+
+	.contactSection{
+		padding: 80px 0px; 
+		background-color: #000000;
+		color: #ffffff;
+	}
+
+	.contactButton{
+		color: #fff;
+		padding: 15px 20px;
+		display: inline-block;
+		margin-top: 20px;
+		border: 1px solid #fff;
+		border-radius: 2px;
+
+		font-family: 'Raleway', sans-serif;
+
+		transition: color 0.4s;
+		transition: background-color 0.4s;
+
+	}
+
+	.contactButtonMag{
+		color: #fff;
+		padding: 15px 20px;
+		display: inline-block;
+		margin-top: 20px;
+		border: 1px solid #fff;
+		border-radius: 2px;
+
+		font-family: 'Raleway', sans-serif;
+
+		transition: color 0.4s;
+		transition: background-color 0.4s;
+
+	}
+
+	.contactButton:hover{
+		text-decoration:none;
+		color: #ffffff ;
+		background-color: #22beba;
+	}
+
+	.contactButtonMag:hover{
+		text-decoration:none;
+		color: #ffffff ;
+		background-color: #ea539b;
+	}
+
+	.PortButton{
+		color: #fff;
+		padding: 15px 20px;
+		display: inline-block;
+		margin-top: 20px;
+		font-family: 'Raleway', sans-serif;
+		color: #606060;
+
+		transition: color 0.4s;
+
+	}
+
+	.PortButtonMag{
+		color: #fff;
+		padding: 15px 20px;
+		display: inline-block;
+		margin-top: 20px;
+		font-family: 'Raleway', sans-serif;
+		color: #606060;
+
+		transition: color 0.4s;
+
+	}
+
+	.PortButton:hover{
+		text-decoration:none;
+		color: #22beba ;
+	}
+
+	.PortButtonMag:hover{
+		text-decoration:none;
+		color: #ea539b ;
+	}
+
+	/*COPYRIGHT----------------------------------------------------------------------------------------------------------------------*/
+
+	.copyrightSection{
+		background-color: #22beba;
+		color: #ffffff;
+		padding: 20px 5px;
+	}
+
+	.copyrightSection p{
+		margin: 0;
+	}
+
+	.logoMain{
+		position: relative;
+		width:150px;
+		height:50px;
+		margin-top: -15px;
+	}
+
+	/*CONTACTSHEET----------------------------------------------------------------------------------------------------------------------*/
+
+	.titleHeading{
+		padding: 50px 0px 0px 0px;
+		color:	#ea539b;
+	}
+
+	.paragraphSub{
+		padding: 0px 0px 30px 0px;
+		color: #606060;
+		font-style: italic;
+	}
+	.resize{
+		resize: none;
+	}
+
+	.buttonPadding{
+		padding: 0px 0px 45px 0px
+	}
+
+	.submitButton{
+		color: #F8F9F4;
+		padding: 5px 50px;
+		display: inline-block;
+		margin-top: 20px;
+		border: 1px solid #F8F9F4;
+		border-radius: 2px;
+		background-color: #606060;
+
+		font-family: 'Raleway', sans-serif;
+
+		transition: color 0.3s;
+		transition: background-color 0.3s;
+
+	}
+
+	.submitButton:hover{
+		text-decoration:none;
+		color: #ffffff ;
+		background-color: #ea539b;
+	}
+	@media only screen and (max-width: 991px) {
+		
+		nav ul li ul{
+		display: block;
+		position: relative;
+		padding: 0px 1000px 0px 0px;
+		background-color: #000;
+		z-index: 101;
+		border-radius: 0px 0px 0px 4px;
+		}
+
+		#navigation1 .subPort{
+			color: #ea539b;
+		}
+
+	}
+
