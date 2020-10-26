@@ -312,6 +312,21 @@
 		margin: 0;
 	}
 
+	.copyrightSection2{
+		background-color: #22beba;
+		color: #ffffff;
+		padding: 20px 5px;
+		position: fixed;
+		bottom: 0%;
+		width: 100%;
+	}
+
+	
+
+	.copyrightSection p{
+		margin: 0;
+	}
+
 	.logoMain{
 		position: relative;
 		width:150px;
@@ -336,7 +351,7 @@
 	}
 
 	.buttonPadding{
-		padding: 0px 0px 45px 0px
+		padding: 0px 0px 45px 0px;
 	}
 
 	.submitButton{
