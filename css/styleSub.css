@@ -370,6 +370,14 @@
 
 	}
 
+	textarea{
+		width: 100%;
+	}
+
+	input{
+		width: 100%;
+	}
+
 	.submitButton:hover{
 		text-decoration:none;
 		color: #ffffff ;
