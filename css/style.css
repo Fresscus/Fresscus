@@ -106,7 +106,7 @@
 	    top: 50%;
 	    z-index: 5;
 	    text-align: center;
-	    margin-top: -10px;
+	    margin-top: 150px;
 	}
 
 	.subMessage .subText p{
@@ -118,11 +118,11 @@
 
 	.titleLogo {
 		width:600px;
-		height:200px;
+		height:356px;
 	    z-index: 5;
 	    position: absolute;
 	    top: 50%;
-	    margin-top: -200px;
+	    margin-top: -250px;
 	    left: 50%;
 	    margin-left: -300px;
 
@@ -299,9 +299,10 @@
 
 	.logoMain{
 		position: relative;
-		width:150px;
-		height:50px;
-		margin-top: -15px;
+		width:40px;
+		height:40px;
+		margin-top: 0px;
+		margin-left: 10px;
 	}
 
 /*OTHER----------------------------------------------------------------------------------------------------------------------*/
@@ -315,7 +316,7 @@
 		    left: 10%;
 		    z-index: 5;
 		    text-align: center;
-		    margin-top: 140px;
+		    margin-top: 10px;
 		}
 
 		[class*= "subText"] p{
@@ -329,13 +330,13 @@
 		
 
 		[class*="titleLogo"] {
-			width:300px;
-			height:100px;
+			width:250px;
+			height:148px;
 		    z-index: 5;
 		    top: 50%;
-		    margin-top: 50px;
+		    margin-top: -150px;
 		    left: 50%;
-		    margin-left: -150px;
+		    margin-left: -125px;
 		    position: absolute;
 
 		}	
