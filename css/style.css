@@ -287,6 +287,17 @@
 		background-color: #22beba;
 	}
 
+	.subHeading{
+		font-size: 20px;
+		padding-top: 30px;
+		color: #606060;
+	}
+	.subHeading2{
+		font-size: 20px;
+		color: #606060;
+	}
+
+
 /*COPYRIGHT----------------------------------------------------------------------------------------------------------------------*/
 
 	.copyrightSection{

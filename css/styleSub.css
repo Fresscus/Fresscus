@@ -300,6 +300,17 @@
 		color: #ea539b ;
 	}
 
+	.subHeading{
+		font-size: 16px;
+		padding-top: 30px;
+		padding-bottom: 0px;
+		color: #606060;
+	}
+	.subHeading2{
+		font-size: 16px;
+		color: #606060;
+	}
+
 	/*COPYRIGHT----------------------------------------------------------------------------------------------------------------------*/
 
 	.copyrightSection{
