@@ -339,7 +339,18 @@
 	}
 
 	.logoMain{
-		position: relative;
+		position: absolute;
+		width:40px;
+		height:40px;
+		margin-top: 0px;
+		margin-left: 10px;
+	}
+
+	.logoMain:hover{
+		opacity:0;
+	}
+
+	.logoGif{
 		width:40px;
 		height:40px;
 		margin-top: 0px;
