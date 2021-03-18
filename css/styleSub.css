@@ -422,3 +422,7 @@
 
 	}
 
+	html.sr .load-hidden {
+	    visibility: hidden;
+	}
+
