@@ -12,10 +12,10 @@
 Order
 
 1 Stonehenge (1)
-2 Headshot (2) (Fishing Village 9)
+2 Fishing Village (9)
 3 Helicopter (3)
-4 Mafiosi (4) (Talexio 8 ) 
+4 Talexio (8) 
 5 Opening Doors (5)
-6 Logo Intros (6) (Ghajn 7)
-7 Ghajn(7) (Logo Intros 6 )
+6 Ghajn (7)
+7 Logo Intros (6)
 8 Unconscious Realities (Online Link)
